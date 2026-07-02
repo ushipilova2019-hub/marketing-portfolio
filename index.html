@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ульяна Шипилова · Коммерческий директор</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+<script>
+tailwind.config = {
+  theme: {
+    extend: {
+      fontFamily: { sans: ['Montserrat', 'sans-serif'] },
+      colors: { ink: '#111111', paper: '#FAFAFA', grey: '#6E6E6E', line: '#E2E2E2', accent: '#2563EB' },
+      letterSpacing: { mega: '0.25em' },
+    }
+  }
+}
+</script>
+<style>
+  html { scroll-behavior: smooth; }
+  body { font-family: 'Montserrat', sans-serif; }
+  .reveal { opacity: 0; transform: translateY(24px); transition: opacity .7s ease, transform .7s ease; }
+  .reveal.on { opacity: 1; transform: none; }
+  .num-big { font-variant-numeric: tabular-nums; }
+  /* liquid glass */
+  .glass-d { background: rgba(255,255,255,0.07); backdrop-filter: blur(24px) saturate(1.2); -webkit-backdrop-filter: blur(24px) saturate(1.2); border: 1px solid rgba(255,255,255,0.14); }
+  .glass-l { background: rgba(255,255,255,0.55); backdrop-filter: blur(24px) saturate(1.2); -webkit-backdrop-filter: blur(24px) saturate(1.2); border: 1px solid rgba(37,99,235,0.30); box-shadow: 0 10px 40px rgba(37,99,235,0.08); }
+  .blob { position: absolute; border-radius: 9999px; filter: blur(90px); pointer-events: none; }
+</style>
+</head>
+<body class="bg-paper text-ink antialiased">
+
+<!-- HERO -->
+<header id="top" class="bg-ink text-white relative overflow-hidden">
+  <div class="blob w-[34rem] h-[34rem] bg-white/10 -top-40 -right-32"></div>
+  <div class="blob w-96 h-96 bg-white/[0.07] bottom-10 left-1/4"></div>
+  <div class="max-w-6xl mx-auto px-6 pt-24 pb-16 grid grid-cols-1 md:grid-cols-[1fr_1.1fr] gap-14 items-center relative">
+    <figure class="reveal order-2 md:order-1">
+      <div class="glass-d rounded-[2.5rem] p-3">
+        <img src="assets/ulyana-hq.png" alt="Ульяна Шипилова"
+          class="w-full aspect-[3/4] object-cover object-top rounded-[2rem]">
+      </div>
+    </figure>
+    <div class="order-1 md:order-2">
+      <p class="text-[11px] font-bold tracking-mega uppercase text-white/50 mb-8 reveal">Давайте познакомимся</p>
+      <h1 class="font-black uppercase leading-[0.98] text-[10vw] md:text-[4.6rem] reveal">Коммерческий<br>директор</h1>
+      <div class="mt-10 max-w-2xl text-white/75 text-base md:text-lg leading-relaxed space-y-5 reveal">
+        <p><span class="font-bold text-white">Меня зовут Ульяна.</span><br>
+        Я работаю с бизнесом на стыке маркетинга, продаж и стратегии. Там, где важно не просто привлекать внимание, а выстраивать устойчивый рост и понятную систему масштабирования.</p>
+        <p><span class="font-bold text-white">Более 7 лет я помогаю проектам расти и развиваться</span>, и 6 лет управляю командами, выстраивая процессы, структуру и результат. За это время я работала с проектами в нишах:</p>
+        <div class="flex flex-wrap gap-2">
+          <span class="glass-d rounded-full px-4 py-1.5 text-sm">IT и digital-продукты</span>
+          <span class="glass-d rounded-full px-4 py-1.5 text-sm">образование и онлайн-школы</span>
+          <span class="glass-d rounded-full px-4 py-1.5 text-sm">консалтинг и экспертные сервисы</span>
+          <span class="glass-d rounded-full px-4 py-1.5 text-sm">инфобизнес</span>
+          <span class="glass-d rounded-full px-4 py-1.5 text-sm">недвижимость</span>
+          <span class="glass-d rounded-full px-4 py-1.5 text-sm">HoReCa</span>
+        </div>
+        <p class="font-bold text-white">Мне близки рост, свобода и работа с амбициозными людьми.</p>
+      </div>
+    </div>
+  </div>
+  <!-- METRICS -->
+  <div class="relative">
+    <div class="max-w-6xl mx-auto px-6 pb-14 grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-6">
+      <div class="glass-d rounded-3xl p-6 reveal">
+        <div class="num-big text-4xl md:text-5xl font-black">7 лет</div>
+        <p class="mt-2 text-[11px] tracking-[0.18em] uppercase text-white/50 font-semibold">в продажах, маркетинге и управлении</p>
+      </div>
+      <div class="glass-d rounded-3xl p-6 reveal">
+        <div class="num-big text-4xl md:text-5xl font-black">6</div>
+        <p class="mt-2 text-[11px] tracking-[0.18em] uppercase text-white/50 font-semibold">компаний от стартапа до международных</p>
+      </div>
+      <div class="glass-d rounded-3xl p-6 reveal">
+        <div class="num-big text-4xl md:text-5xl font-black">5</div>
+        <p class="mt-2 text-[11px] tracking-[0.18em] uppercase text-white/50 font-semibold">отраслей: digital, финансы, образование, fashion, tech</p>
+      </div>
+      <div class="glass-d rounded-3xl p-6 reveal">
+        <div class="num-big text-4xl md:text-5xl font-black">до 30</div>
+        <p class="mt-2 text-[11px] tracking-[0.18em] uppercase text-white/50 font-semibold">человек в командах под моим управлением</p>
+      </div>
+    </div>
+  </div>
+</header>
+
+<!-- ABOUT -->
+<section id="about" class="py-28 relative overflow-hidden">
+  <div class="blob w-[30rem] h-[30rem] bg-accent/10 -top-24 -right-40"></div>
+  <div class="blob w-80 h-80 bg-accent/[0.07] bottom-20 -left-24"></div>
+  <div class="max-w-6xl mx-auto px-6 relative grid grid-cols-1 md:grid-cols-2 gap-14 items-start">
+    <div class="reveal">
+      <p class="text-[11px] font-bold tracking-mega uppercase text-accent mb-4">Обо мне</p>
+      <h2 class="text-[9.5vw] sm:text-4xl md:text-6xl font-black uppercase leading-tight">Живу в Барселоне</h2>
+      <p class="mt-8 text-grey text-lg leading-relaxed">
+        Коммерческий директор с опытом в России, Дубае и Европе.
+        Гражданство России, живу в Испании. Готова к удалённой работе и командировкам.
+      </p>
+      <div class="mt-8 flex flex-wrap gap-2">
+        <span class="glass-l rounded-full px-4 py-1.5 text-sm">Русский · родной</span>
+        <span class="glass-l rounded-full px-4 py-1.5 text-sm">Английский</span>
+        <span class="glass-l rounded-full px-4 py-1.5 text-sm">Испанский</span>
+      </div>
+    </div>
+    <div class="space-y-6 reveal">
+      <div class="glass-l rounded-3xl p-8">
+        <h3 class="text-[11px] font-bold tracking-mega uppercase text-accent mb-5">Контакты</h3>
+        <ul class="space-y-4">
+          <li class="flex flex-wrap justify-between gap-x-6 gap-y-1 items-baseline">
+            <span class="text-[11px] tracking-[0.18em] uppercase text-grey font-semibold shrink-0">Телефон</span>
+            <a href="tel:+79633550770" class="font-bold hover:text-accent transition">+7 963 355-07-70</a>
+          </li>
+          <li class="flex flex-wrap justify-between gap-x-6 gap-y-1 items-baseline">
+            <span class="text-[11px] tracking-[0.18em] uppercase text-grey font-semibold shrink-0">Почта</span>
+            <a href="mailto:u.shipilova.2019@gmail.com" class="font-bold hover:text-accent transition break-all">u.shipilova.2019@gmail.com</a>
+          </li>
+          <li class="flex flex-wrap justify-between gap-x-6 gap-y-1 items-baseline">
+            <span class="text-[11px] tracking-[0.18em] uppercase text-grey font-semibold shrink-0">Telegram</span>
+            <a href="https://t.me/ulianaa_s" target="_blank" rel="noopener" class="font-bold hover:text-accent transition">@ulianaa_s</a>
+          </li>
+          <li class="flex flex-wrap justify-between gap-x-6 gap-y-1 items-baseline">
+            <span class="text-[11px] tracking-[0.18em] uppercase text-grey font-semibold shrink-0">Локация</span>
+            <span class="font-bold">Барселона, Испания</span>
+          </li>
+        </ul>
+      </div>
+      <div class="glass-l rounded-3xl p-8">
+        <h3 class="text-[11px] font-bold tracking-mega uppercase text-accent mb-5">Образование</h3>
+        <ul class="space-y-3">
+          <li class="flex flex-wrap justify-between gap-x-6 gap-y-1 border-b border-line pb-3"><span class="font-semibold">Горный университет, Санкт-Петербург</span><span class="text-grey text-sm shrink-0">высшее</span></li>
+          <li class="flex flex-wrap justify-between gap-x-6 gap-y-1 border-b border-line pb-3"><span class="font-semibold">Стратегический маркетинг</span><span class="text-grey text-sm shrink-0">New Sence</span></li>
+          <li class="flex flex-wrap justify-between gap-x-6 gap-y-1 border-b border-line pb-3"><span class="font-semibold">Мастер управления командами</span><span class="text-grey text-sm shrink-0">Remote Team</span></li>
+          <li class="flex flex-wrap justify-between gap-x-6 gap-y-1 border-b border-line pb-3"><span class="font-semibold">РОП: руководитель отдела продаж</span><span class="text-grey text-sm shrink-0">Resulting</span></li>
+          <li class="flex flex-wrap justify-between gap-x-6 gap-y-1"><span class="font-semibold">Реальный HR</span><span class="text-grey text-sm shrink-0">Resulting</span></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CASES -->
+<section id="experience" class="bg-ink text-white py-28 relative overflow-hidden">
+  <div class="blob w-[30rem] h-[30rem] bg-white/[0.08] -top-24 -left-40"></div>
+  <div class="blob w-80 h-80 bg-white/[0.06] bottom-10 right-0"></div>
+  <div class="max-w-6xl mx-auto px-6 relative">
+    <p class="text-[11px] font-bold tracking-mega uppercase text-white/40 mb-4 reveal">Кейсы</p>
+    <h2 class="text-4xl md:text-6xl font-black uppercase leading-tight reveal">Компании<br>и достижения</h2>
+
+    <div class="mt-16 space-y-6 reveal">
+
+      <div class="glass-d rounded-3xl p-8 md:p-10">
+        <div class="flex flex-wrap items-baseline justify-between gap-3">
+          <h3 class="text-xl md:text-2xl font-extrabold uppercase">ES PAIS · онлайн-школа испанского</h3>
+          <span class="text-[11px] tracking-[0.18em] uppercase text-white/40 font-semibold">2026 · маркетинговая стратегия и реализация</span>
+        </div>
+        <p class="mt-4 text-lg font-bold">Составила маркетинговую стратегию школы и реализовала её на рынке.</p>
+        <p class="mt-3 text-white/60 leading-relaxed">Работа с продуктом и изменение продуктовой матрицы, внедрение энтри-продуктов, клуб учеников, скрипты и продажи, контент-план, координация отдела продаж и копирайтеров.</p>
+      </div>
+
+      <div class="glass-d rounded-3xl p-8 md:p-10">
+        <div class="flex flex-wrap items-baseline justify-between gap-3">
+          <h3 class="text-xl md:text-2xl font-extrabold uppercase">Юлия Смоли · блогер, 150 тыс. подписчиков</h3>
+          <span class="text-[11px] tracking-[0.18em] uppercase text-white/40 font-semibold">2026 · маркетинговая стратегия</span>
+        </div>
+        <p class="mt-4 text-lg font-bold">Реализовала маркетинговую стратегию: запуск нового продукта и воронка продаж под него.</p>
+        <p class="mt-3 text-white/60 leading-relaxed">Запуск нового продукта, формирование воронки продаж, ребрендинг и работа с новым позиционированием.</p>
+      </div>
+
+      <div class="glass-d rounded-3xl p-8 md:p-10">
+        <div class="flex flex-wrap items-baseline justify-between gap-3">
+          <h3 class="text-xl md:text-2xl font-extrabold uppercase">ROM ROM · премиальная флористика, Санкт-Петербург</h3>
+          <span class="text-[11px] tracking-[0.18em] uppercase text-white/40 font-semibold">2026 · маркетинговая стратегия</span>
+        </div>
+        <p class="mt-4 text-lg font-bold">Разработала маркетинговую стратегию премиальной студии флористики.</p>
+        <p class="mt-3 text-white/60 leading-relaxed">Фокус на премиальный сегмент: путь клиента и точки потери, система продаж, контент под воронку.</p>
+      </div>
+
+      <div class="glass-d rounded-3xl p-8 md:p-10">
+        <div class="flex flex-wrap items-baseline justify-between gap-3">
+          <h3 class="text-xl md:text-2xl font-extrabold uppercase">Digital-агентство · Дубай</h3>
+          <span class="text-[11px] tracking-[0.18em] uppercase text-white/40 font-semibold">июнь 2025 · март 2026 · коммерческий директор</span>
+        </div>
+        <p class="mt-4 text-lg font-bold">Вывела продукт с нуля на рынок. Показатели росли на 5-10% каждый месяц.</p>
+        <p class="mt-3 text-white/60 leading-relaxed">Полный цикл: анализ рынка и конкурентов, упаковка, продвижение через Telegram и таргет, CRM-маркетинг, контроль гипотез по всей воронке. Управляла рекламными бюджетами от 13 000 €.</p>
+      </div>
+
+      <div class="glass-d rounded-3xl p-8 md:p-10">
+        <div class="flex flex-wrap items-baseline justify-between gap-3">
+          <h3 class="text-xl md:text-2xl font-extrabold uppercase">Teleporto · финансовый консалтинг</h3>
+          <span class="text-[11px] tracking-[0.18em] uppercase text-white/40 font-semibold">2025 · директор по продажам</span>
+        </div>
+        <p class="mt-4 text-lg font-bold">Продажи выросли в 1,5 раза после реализации маркетинговой стратегии. Конверсия встреч в сделки прибавила 5 пунктов.</p>
+        <p class="mt-3 text-white/60 leading-relaxed">Кастдев, скрипты, воронка, реферальная программа, планы обучения команды. Отдел продаж синхронизирован с продуктом.</p>
+      </div>
+
+      <div class="glass-d rounded-3xl p-8 md:p-10">
+        <div class="flex flex-wrap items-baseline justify-between gap-3">
+          <h3 class="text-xl md:text-2xl font-extrabold uppercase">Академия Remote Team · EdTech</h3>
+          <span class="text-[11px] tracking-[0.18em] uppercase text-white/40 font-semibold">2023 · 2024 · коммерческий директор</span>
+        </div>
+        <p class="mt-4 text-lg font-bold">Новое EdTech-направление адаптировано под рынок и прошло полный цикл сделок.</p>
+        <p class="mt-3 text-white/60 leading-relaxed">Вебинарная воронка до сделки, скрипты и алгоритмы продаж, система KPI, найм и наставничество менеджеров.</p>
+      </div>
+
+      <div class="glass-d rounded-3xl p-8 md:p-10">
+        <div class="flex flex-wrap items-baseline justify-between gap-3">
+          <h3 class="text-xl md:text-2xl font-extrabold uppercase">Resulting · бизнес-консалтинг</h3>
+          <span class="text-[11px] tracking-[0.18em] uppercase text-white/40 font-semibold">2022 · 2023 · эксперт по продажам</span>
+        </div>
+        <p class="mt-4 text-lg font-bold">Закрывала сделки с владельцами бизнесов и обучала менеджеров по продажам.</p>
+        <p class="mt-3 text-white/60 leading-relaxed">Переговоры первым лицом, доведение до оплаты, ведение CRM и отчётности, передача технологии продаж командам клиентов.</p>
+      </div>
+
+      <div class="glass-d rounded-3xl p-8 md:p-10">
+        <div class="flex flex-wrap items-baseline justify-between gap-3">
+          <h3 class="text-xl md:text-2xl font-extrabold uppercase">RobotexWorld · образование</h3>
+          <span class="text-[11px] tracking-[0.18em] uppercase text-white/40 font-semibold">2019 · 2022 · руководитель отдела продаж</span>
+        </div>
+        <p class="mt-4 text-lg font-bold">Построила клиентские отделы с нуля. Команды работают по стандартам, а не по наитию.</p>
+        <p class="mt-3 text-white/60 leading-relaxed">Найм, обучение, адаптация. Стандарты и регламенты, скрипты работы с возражениями, статистики роста soft и hard skills.</p>
+      </div>
+
+      <div class="glass-d rounded-3xl p-8 md:p-10">
+        <div class="flex flex-wrap items-baseline justify-between gap-3">
+          <h3 class="text-xl md:text-2xl font-extrabold uppercase">SELECT MGMT · модельное агентство</h3>
+          <span class="text-[11px] tracking-[0.18em] uppercase text-white/40 font-semibold">2019 · 2022 · эксперт по продажам</span>
+        </div>
+        <p class="mt-4 text-lg font-bold">Проект на рекордную выручку в истории агентства. Прибыль выросла в 1,5 раза.</p>
+        <p class="mt-3 text-white/60 leading-relaxed">Контракты с брендами и рекламными агентствами, система кастингов, план соцсетей, который дал стабильный поток клиентов.</p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- SKILLS -->
+<section id="skills" class="py-28 relative overflow-hidden">
+  <div class="blob w-[28rem] h-[28rem] bg-accent/10 top-10 -left-40"></div>
+  <div class="blob w-96 h-96 bg-accent/[0.07] -bottom-20 right-0"></div>
+  <div class="max-w-6xl mx-auto px-6 relative">
+    <p class="text-[11px] font-bold tracking-mega uppercase text-accent mb-4 reveal">Навыки</p>
+    <h2 class="text-4xl md:text-6xl font-black uppercase leading-tight reveal">Что умею</h2>
+    <div class="mt-16 grid grid-cols-1 md:grid-cols-2 gap-6 reveal">
+      <div class="glass-l rounded-3xl p-8">
+        <h3 class="font-extrabold uppercase tracking-wide mb-6 inline-block border-b-2 border-accent pb-1">Маркетинг</h3>
+        <div class="flex flex-wrap gap-2">
+          <span class="glass-l rounded-full px-4 py-1.5 text-sm">Маркетинговая стратегия</span>
+          <span class="glass-l rounded-full px-4 py-1.5 text-sm">Работа с данными и аналитикой</span>
+          <span class="glass-l rounded-full px-4 py-1.5 text-sm">Анализ рынка и конкурентов</span>
+          <span class="glass-l rounded-full px-4 py-1.5 text-sm">Воронки и конверсии</span>
+          <span class="glass-l rounded-full px-4 py-1.5 text-sm">Позиционирование и упаковка</span>
+          <span class="glass-l rounded-full px-4 py-1.5 text-sm">CRM-маркетинг</span>
+          <span class="glass-l rounded-full px-4 py-1.5 text-sm">Telegram-продвижение</span>
+          <span class="glass-l rounded-full px-4 py-1.5 text-sm">Таргетированная реклама</span>
+        </div>
+      </div>
+      <div class="glass-l rounded-3xl p-8">
+        <h3 class="font-extrabold uppercase tracking-wide mb-6 inline-block border-b-2 border-accent pb-1">Продажи</h3>
+        <div class="flex flex-wrap gap-2">
+          <span class="glass-l rounded-full px-4 py-1.5 text-sm">Скрипты продаж</span>
+          <span class="glass-l rounded-full px-4 py-1.5 text-sm">Переговоры и закрытие сделок</span>
+          <span class="glass-l rounded-full px-4 py-1.5 text-sm">Кастдев-интервью</span>
+          <span class="glass-l rounded-full px-4 py-1.5 text-sm">Работа с возражениями</span>
+          <span class="glass-l rounded-full px-4 py-1.5 text-sm">Декомпозиция планов продаж</span>
+          <span class="glass-l rounded-full px-4 py-1.5 text-sm">Реферальные программы</span>
+          <span class="glass-l rounded-full px-4 py-1.5 text-sm">Аналитика продаж</span>
+        </div>
+      </div>
+      <div class="glass-l rounded-3xl p-8">
+        <h3 class="font-extrabold uppercase tracking-wide mb-6 inline-block border-b-2 border-accent pb-1">Управление</h3>
+        <div class="flex flex-wrap gap-2">
+          <span class="glass-l rounded-full px-4 py-1.5 text-sm">Найм и адаптация</span>
+          <span class="glass-l rounded-full px-4 py-1.5 text-sm">Обучение и наставничество</span>
+          <span class="glass-l rounded-full px-4 py-1.5 text-sm">KPI и отчётность</span>
+          <span class="glass-l rounded-full px-4 py-1.5 text-sm">Мотивация персонала</span>
+          <span class="glass-l rounded-full px-4 py-1.5 text-sm">Регламенты и стандарты</span>
+          <span class="glass-l rounded-full px-4 py-1.5 text-sm">Управление проектами</span>
+          <span class="glass-l rounded-full px-4 py-1.5 text-sm">Работа с конфликтами</span>
+        </div>
+      </div>
+      <div class="glass-l rounded-3xl p-8">
+        <h3 class="font-extrabold uppercase tracking-wide mb-6 inline-block border-b-2 border-accent pb-1">Инструменты</h3>
+        <div class="flex flex-wrap gap-2">
+          <span class="glass-l rounded-full px-4 py-1.5 text-sm">amoCRM</span>
+          <span class="glass-l rounded-full px-4 py-1.5 text-sm">Alfa CRM</span>
+          <span class="glass-l rounded-full px-4 py-1.5 text-sm">GetCourse</span>
+          <span class="glass-l rounded-full px-4 py-1.5 text-sm">Salebot</span>
+          <span class="glass-l rounded-full px-4 py-1.5 text-sm">Trello</span>
+          <span class="glass-l rounded-full px-4 py-1.5 text-sm">Notion</span>
+          <span class="glass-l rounded-full px-4 py-1.5 text-sm">Google Docs</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- TEAM APPROACH -->
+<section id="team" class="bg-ink text-white py-28 relative overflow-hidden">
+  <div class="blob w-[32rem] h-[32rem] bg-white/[0.08] -top-32 -right-40"></div>
+  <div class="blob w-96 h-96 bg-white/[0.06] bottom-0 left-0"></div>
+  <div class="max-w-6xl mx-auto px-6 relative">
+    <p class="text-[11px] font-bold tracking-mega uppercase text-white/40 mb-4 reveal">Команды</p>
+    <h2 class="text-4xl md:text-6xl font-black uppercase leading-tight reveal">Как я работаю<br>с командой</h2>
+
+    <div class="mt-16 grid grid-cols-1 md:grid-cols-2 gap-6 reveal">
+      <div class="glass-d rounded-3xl p-10">
+        <h3 class="text-xl font-extrabold uppercase tracking-wide">Цифры и гипотезы</h3>
+        <p class="mt-4 text-white/70 leading-relaxed">Веду управление по цифрам: обожаю таблицы и аналитику, гипотезы всегда строю на данных. Прежде чем что-то внедрять, разбираем причинно-следственные связи, тестируем и смотрим, как это работает. Этому же обучаю команду.</p>
+      </div>
+      <div class="glass-d rounded-3xl p-10">
+        <h3 class="text-xl font-extrabold uppercase tracking-wide">Ответственность</h3>
+        <p class="mt-4 text-white/70 leading-relaxed">Несу полную ответственность за команду: её результат, состояние и рост. Для команды я опора и спокойствие, особенно в сложный момент. Каждый знает, что может прийти ко мне за помощью и советом, рабочим или личным.</p>
+      </div>
+      <div class="glass-d rounded-3xl p-10">
+        <h3 class="text-xl font-extrabold uppercase tracking-wide">Мотивация и цели</h3>
+        <p class="mt-4 text-white/70 leading-relaxed">Выявляю, что важно каждому сотруднику, и строю мотивацию под человека, а не под шаблон. Цель стоит и перед командой, и перед каждым отдельно: я знаю, к чему человек хочет прийти, и помогаю достичь этого через его работу.</p>
+      </div>
+      <div class="glass-d rounded-3xl p-10">
+        <h3 class="text-xl font-extrabold uppercase tracking-wide">Результат</h3>
+        <p class="mt-4 text-white/70 leading-relaxed">Управляю командами больше 6 лет, и это то, что меня по-настоящему вдохновляет. Самые сильные результаты получаются именно руками команды. Начатое всегда довожу до конца.</p>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer id="contact" class="bg-ink text-white border-t border-white/10">
+  <div class="max-w-6xl mx-auto px-6 py-12 flex items-center justify-center">
+    <a href="mailto:u.shipilova.2019@gmail.com" class="text-[12px] font-bold tracking-[0.18em] uppercase hover:text-white/60 transition break-all">u.shipilova.2019@gmail.com</a>
+  </div>
+</footer>
+
+<script>
+  const io = new IntersectionObserver((es) => es.forEach(e => e.isIntersecting && e.target.classList.add('on')), { threshold: 0, rootMargin: '0px 0px -40px 0px' });
+  document.querySelectorAll('.reveal').forEach(el => io.observe(el));
+</script>
+</body>
+</html>
